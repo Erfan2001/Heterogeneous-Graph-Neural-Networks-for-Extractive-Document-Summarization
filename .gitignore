@@ -1,0 +1,8 @@
+/datasets
+/embeddings
+ConGNN-SUM/cache
+ConGNN-SUM/results/log
+ConGNN-SUM/results/models
+ConGNN-SUM/results/save
+venv
+/temp

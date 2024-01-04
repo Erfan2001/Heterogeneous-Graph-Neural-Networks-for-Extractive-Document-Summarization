@@ -1,0 +1,20 @@
+2023-08-27 22:04:52,018 INFO    : Pytorch 2.0.0+cu117
+2023-08-27 22:04:52,018 INFO    : [INFO] Create Vocab, vocab path is J:\HSG\ConGNN-SUM\cache\CNNDM\vocab
+2023-08-27 22:04:52,062 INFO    : [INFO] max_size of vocab was specified as 50000; we now have 50000 words. Stopping reading.
+2023-08-27 22:04:52,062 INFO    : [INFO] Finished constructing vocabulary of 50000 total words. Last word added: chaudhary
+2023-08-27 22:04:52,151 INFO    : Namespace(data_dir='J:\\HSG\\datasets\\cnndm', cache_dir='J:\\HSG\\ConGNN-SUM\\cache\\CNNDM', embedding_path='J:\\HSG\\embeddings\\glove.42B.300d.txt', model='HSG', test_model='J:\\HSG\\ConGNN-SUM\\save\\eval\\HSGmodel', use_pyrouge=False, restore_model='None', save_root='save/', log_root='log/', seed=666, gpu='0', cuda=True, vocab_size=50000, n_epochs=20, batch_size=64, n_iter=1, word_embedding=False, word_emb_dim=300, embed_train=False, feat_embed_size=50, n_layers=1, lstm_hidden_state=128, lstm_layers=2, bidirectional=True, n_feature_size=128, hidden_size=64, gcn_hidden_size=128, ffn_inner_hidden_size=512, n_head=8, recurrent_dropout_prob=0.1, atten_dropout_prob=0.1, ffn_dropout_prob=0.1, use_orthnormal_init=True, sent_max_len=100, doc_max_timesteps=50, lr=0.0005, lr_descent=False, grad_clip=False, max_grad_norm=1.0, m=3, save_label=True, limited=False, blocking=False, max_instances=None, from_instances_index=0, use_cache_graph=True, fill_graph_cache=False, device=device(type='cuda', index=0))
+2023-08-27 22:04:54,687 INFO    : [MODEL] ConGNN-SUM 
+2023-08-27 22:04:55,135 INFO    : [INFO] Use cuda
+2023-08-27 22:04:55,135 INFO    : [INFO] Decoding...
+2023-08-27 22:04:57,394 INFO    : [Model] Sequence Labeling!
+2023-08-27 22:18:34,189 INFO    : The number of pairs is 11488
+2023-08-27 22:19:21,591 INFO    : Rouge1:
+	p:0.393400, r:0.506284, f:0.431582
+Rouge2:
+	p:0.170120, r:0.235983, f:0.191036
+Rougel:
+	p:0.357803, r:0.460199, f:0.392418
+
+2023-08-27 22:19:21,591 INFO    : [INFO] Validset match_true 11987, pred 34464, true 25641, total 348689, match 312558
+2023-08-27 22:19:21,593 INFO    : [INFO] The size of totalset is 11488, sent_number is 348689, accu is 0.896380, precision is 0.347812, recall is 0.467493, F is 0.398869
+2023-08-27 22:19:23,340 INFO    : [INFO] End of test | time: 865.95s | test loss 5.5381 | 
