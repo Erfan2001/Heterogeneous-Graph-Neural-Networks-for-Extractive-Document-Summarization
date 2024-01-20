@@ -1,14 +1,9 @@
 # ConGNN-SUM: Contextualized-Heterogeneous-Graph-Neural-Networks-for-Extractive-Document-Summarization
 
-B.Sc. Project
-
-All Files: https://drive.google.com/drive/folders/1h_FHRh6qseiEAOhN2JTr5de_SPrUQmo1?usp=sharing
+# Methodolgy
 
 ![image](https://github.com/Erfan2001/Heterogeneous-Graph-Neural-Networks-for-Extractive-Document-Summarization/assets/69463039/d7be478c-5573-434f-a5a8-0466ed863559)
 
-Implemented by Erfan Nourbakhsh
-
-Summer 2023
 
 # Description of Project:
 
