@@ -31,9 +31,9 @@ Some codes are borrowed from [PG](https://github.com/abisee/pointer-generator) a
 
 ## Data
 
-We have preprocessed **CNN/DailyMail**, **NYT50** and **Multi-News** datasets for TF-IDF features used in the graph creation, which you can find [here](https://drive.google.com/open?id=1oIYBwmrB9_alzvNDBtsMENKHthE9SW9z).
+We have preprocessed **CNN/DailyMail** dataset for TF-IDF features used in the graph creation, which you can find [here](https://drive.google.com/open?id=1oIYBwmrB9_alzvNDBtsMENKHthE9SW9z).
 
-For **CNN/DailyMail** and **Multi-News**, we also provide the json-format datasets in [this link](https://drive.google.com/open?id=1JW033KefyyoYUKUFj6GqeBFZSHjksTfr).  However, due to the license, NYT(The New York Times Annotated Corpus) can only be available from [LDC](https://catalog.ldc.upenn.edu/LDC2008T19). And we follow the [preprocessing code](http://nlp.cs.berkeley.edu/projects/summarizer.shtml) of [Durrett et al. (2016)](http://nlp.cs.berkeley.edu/pubs/Durrett-BergKirkpatrick-Klein_2016_LearningSumm_paper.pdf) to get the **NYT50** datasets. 
+For **CNN/DailyMail**, we also provide the json-format datasets in [this link](https://drive.google.com/open?id=1JW033KefyyoYUKUFj6GqeBFZSHjksTfr).
 
 The example looks like this:
 
